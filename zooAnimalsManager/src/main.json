@@ -1,0 +1,8 @@
+{
+  "id": 0,
+  "typeOfAnimal": ["Monkey", "Giraffe", "Elephant"],
+  "maxHealth": 100.00,
+  "minHealth": [30.00, 50.00, 70.00],
+  "isDead": false,
+  "hoursPassedWithoutFeed": 0
+}

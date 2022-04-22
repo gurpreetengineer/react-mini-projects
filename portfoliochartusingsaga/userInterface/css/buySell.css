@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+.main5 {
+  height: 50px;
+  width: 40px;
+  padding-top: 1%;
+  background-color: #f6f6f6;
+}
+
+.buttonFormat {
+  border: 1px solid #ff6900;
+  border-radius: 3px;
+  margin: 2px;
+  /* margin-bottom: 2px; */
+  padding: 2px;
+  text-align: center;
+  color: #ff6900;
+  font-size: 10px;
+  font-family: "Fira Sans", sans-serif;
+}

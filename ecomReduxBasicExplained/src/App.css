@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+  .hedding{
+  font-size: 20px;
+  color:#ab8181;
+  }
+  .main-section{
+  position: absolute;
+  left:50%;
+  right:50%;
+  transform: translate(-50%,5%);
+  }
+  .left-side-product-box img{
+  width: 100%;
+  }
+  .left-side-product-box .sub-img img{
+  margin-top:5px;
+  width:83px;
+  height:100px;
+  }
+  .right-side-pro-detail span{
+  font-size:15px;
+  }
+  .right-side-pro-detail p{
+  font-size:25px;
+  color:#a1a1a1;
+  }
+  .right-side-pro-detail .price-pro{
+  color:#E45641;
+  }
+  .right-side-pro-detail .tag-section{
+  font-size:18px;
+  color:#5D4C46;
+  }
+  .pro-box-section .pro-box img{
+  width: 100%;
+  height:200px;
+  }
+  @media (min-width:360px) and (max-width:640px) {
+  .pro-box-section .pro-box img{
+  height:auto;
+  }
+  }

@@ -1,0 +1,29 @@
+.displayList {
+  margin-bottom: 2%;
+  font-size: initial;
+  font-family: helvetica;
+}
+
+.displayList:last-child {
+  margin-bottom: 0%;
+}
+
+.displayList__pass {
+  color: green;
+}
+
+.displayList__fail {
+  color: red;
+}
+.displayList__firstPosition {
+  color: #a57c00;
+}
+.displayList__secondPosition {
+  color: gray;
+}
+.displayList__thirdPosition {
+  color: #cd7f32;
+}
+.displayList__position {
+  font-weight: bolder;
+}

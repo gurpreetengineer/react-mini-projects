@@ -1,0 +1,40 @@
+.main4 {
+  height: 50px;
+  width: 90px;
+  padding-top: 6%;
+  background-color: #f6f6f6;
+  padding-left: 3px;
+  padding-right: 4px;
+}
+
+.column {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3px;
+}
+
+span {
+  font-size: 7px;
+}
+
+#portfolioColor {
+  color: #555555;
+}
+
+.container {
+  border: 1px solid black;
+  height: 30px;
+  width: 100%;
+}
+
+.progressBar {
+  /* width: 35%; */
+  fill: green;
+  background-color: green;
+}
+
+.prog {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+}

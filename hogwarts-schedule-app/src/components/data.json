@@ -1,0 +1,78 @@
+{
+  "teachersList": [
+    { "id": 1, "name": "Professor Dumbledore", "isAbsent": false },
+    { "id": 2, "name": "Minerva McGonagall", "isAbsent": false },
+
+    { "id": 3, "name": "Rubeus Hagrid", "isAbsent": false },
+    { "id": 4, "name": "Horace Slughorn", "isAbsent": false },
+    { "id": 5, "name": "Severus Snape", "isAbsent": false },
+
+    { "id": 6, "name": "Alastor Moody", "isAbsent": false },
+    { "id": 7, "name": "Remus Lupin", "isAbsent": false },
+    { "id": 8, "name": "Gilderoy Lockhart", "isAbsent": false }
+  ],
+  "teachersHierarchy": {
+      "master": "Professor Dumbledore",
+      "isAbsent": false,
+      "holds": {
+        "master": "Minerva McGonagall",
+        "isAbsent": false,
+        "holds": [
+          {
+            "master": "Rubeus Hagrid",
+            "isAbsent": false,
+            "holds": [
+              { "name": "Horace Slughorn", "isAbsent": false },
+              { "name": "Severus Snape", "isAbsent": false }
+            ]
+          },
+          {
+            "master": "Alastor Moody,",
+            "isAbsent": false,
+            "holds": [
+              { "master": "Remus Lupin", "isAbsent": false },
+              { "master": "Gilderoy Lockhart", "isAbsent": false }
+            ]
+          }
+        ]
+      }
+    },
+  "students": [
+    {
+      "name": "Harry Potter",
+      "teacherAssigned": "Horace Slughorn",
+      "teacherId": 4,
+      "subject": "Potions Master"
+    },
+    {
+      "name": "Hermione Granger",
+      "teacherAssigned": "Rubeus Hagrid",
+      "teacherId": 3,
+      "subject": "Potions Master"
+    },
+    {
+      "name": "Ron Weasley",
+      "teacherAssigned": "Severus Snape",
+      "teacherId": 5,
+      "subject": "Potions Master"
+    },
+    {
+      "name": "Draco Malfoy",
+      "teacherAssigned": "Horace Slughorn",
+      "teacherId": 4,
+      "subject": "Potions Master"
+    },
+    {
+      "name": "Padma Patil",
+      "teacherAssigned": "Rubeus Hagrid",
+      "teacherId": 3,
+      "subject": "Potions Master"
+    },
+    {
+      "name": "Luna Lovegood",
+      "teacherAssigned": "Severus Snape",
+      "teacherId": 5,
+      "subject": "Potions Master"
+    }
+  ]
+}

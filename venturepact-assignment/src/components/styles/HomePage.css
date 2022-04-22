@@ -1,0 +1,17 @@
+.HP_container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.HP_leftHalf {
+  flex: 1;
+  background-color: darkseagreen;
+  display: flex;
+  align-items: center;
+}
+
+.HP_rightHalf {
+  flex: 1;
+  background-color: black;
+}

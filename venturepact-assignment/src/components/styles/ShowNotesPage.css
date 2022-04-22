@@ -1,0 +1,48 @@
+.SNP_container {
+  margin: 4vh;
+  display: -webkit-inline-box;
+  flex-flow: column wrap;
+  overflow: scroll;
+  margin-top: 12vh;
+  /* height: 82vh; */
+}
+.SNP_container::-webkit-scrollbar {
+  display: none;
+}
+
+.Card_container {
+  max-width: 34vh;
+  min-height: 26vh;
+  border-radius: 9px;
+  box-shadow: 2px 7px 13px -2px #bebebe;
+  margin: 3vh;
+}
+
+.Card_title_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4vh;
+}
+.Card_title {
+  /* margin: 3vh; */
+  border-bottom: 1px solid black;
+  font-weight: 900;
+  padding-bottom: 22px;
+}
+
+.Card_description {
+  margin: 4vh;
+  word-break: break-word;
+}
+
+.Card_eraser {
+  width: 5vh;
+  cursor: pointer;
+}
+
+.Card_createdAt {
+  padding-left: 13vh;
+  color: #a8a8a8;
+  font-size: 13px;
+}

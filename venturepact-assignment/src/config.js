@@ -1,0 +1,3 @@
+export const DEFAULT_EMAIL= process.env.REACT_APP_DEFAULT_EMAIL;
+export const DEFAULT_PASSWORD= process.env.REACT_APP_DEFAULT_PASSWORD;
+

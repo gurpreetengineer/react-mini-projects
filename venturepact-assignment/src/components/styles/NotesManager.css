@@ -1,0 +1,57 @@
+.NM_container {
+  margin-top: 12vh;
+  color: white;
+}
+
+.NM_warning {
+  font-size: 5vh;
+  text-align: center;
+  align-items: center;
+  margin: 44vh 8vh;
+  color: red;
+}
+
+.NM_NE_container {
+  text-align: center;
+  align-items: center;
+  margin: 25vh 8vh 0 8vh;
+}
+
+.NM_NE_title, .NM_NE_description{
+  flex-flow: column wrap;
+  padding: 8px 17px;
+  font-size: 3vh;
+  width: 46vh;
+  border-radius: 9px;
+  background-color: antiquewhite;
+}
+
+.NM_NE_description {
+  height: 22vh;
+  margin: 5vh 0;
+  padding: 13px 17px !important;
+  /* flex-flow: column wrap; */
+}
+
+.NM_NE_button {
+  padding: 3vh 12vh;
+  background: black;
+  color: bisque;
+  font-size: 4vh;
+  box-shadow: -4px 0px 39px -9px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.NM_NE_caption {
+  font-size: 23px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 12vh;
+}
+
+.NM_NE_link {
+  padding-left: 10px;
+  text-decoration: none;
+}

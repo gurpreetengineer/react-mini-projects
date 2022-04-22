@@ -1,0 +1,11 @@
+.MP__main_container {
+  display: flex;
+}
+
+.MP__left_container {
+  border-right: 1px solid black;
+  justify-content: center;
+}
+.MP__left_container, .MP__right_container {
+  flex: 1
+}

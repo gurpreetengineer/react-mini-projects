@@ -1,0 +1,58 @@
+.LM_container {
+  margin-top: 12vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.LM_default_login { 
+  flex: 0.4;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.LM_OR {
+  flex: 0.2;
+  font-size: 8vh;
+  text-align: center;
+}
+
+.LM_form {
+  flex: 0.4;
+  margin: 0vh 1vh;
+  text-align: center;
+}
+
+.LM_default_button {
+  padding: 3vh 9vh;
+  background: black;
+  font-size: 3vh;
+  color: red;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.LM_error {
+  color: red;
+}
+
+.LM_input {
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  font-size: 20px;
+}
+
+.LM_UIC_container {
+ justify-content: center;
+}
+
+.LM_UIC_paragraph {
+  padding-top: 12vh;
+  font-size: 3vh;
+  font-family: Arial, Helvetica, sans-serif;
+}

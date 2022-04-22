@@ -1,0 +1,5 @@
+export const SET_USER_DETAILS='SET_USER_DETAILS';
+
+export const SHOW_ALL_NOTES='SHOW_ALL_NOTES';
+export const ADD_A_NOTE='ADD_A_NOTE';
+export const REMOVE_A_NOTE='REMOVE_A_NOTE';

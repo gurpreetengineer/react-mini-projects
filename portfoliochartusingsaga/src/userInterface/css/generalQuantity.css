@@ -1,0 +1,17 @@
+img {
+  width: 10px;
+}
+td {
+  font-size: 7px;
+}
+.heading {
+  padding-right: 10px;
+  color: #555555;
+}
+
+.main2 {
+  height: 50px;
+  width: 110px;
+  padding-top: 5%;
+  background-color: #f6f6f6;
+}
